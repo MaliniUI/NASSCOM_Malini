@@ -6,12 +6,17 @@ import { RegisterOrganisationPassComponent } from './register-organisation-pass/
 import { RegisterSkillLabourPassComponent } from './register-skill-labour-pass/register-skill-labour-pass.component';
 import { RegisteredPassComponent } from './registered-pass/registered-pass.component';
 import { ErrorHandlerPageComponent } from './error-handler-page/error-handler-page.component';
+import { RegisterIndividualPassComponent } from './register-individual-pass/register-individual-pass.component';
 // declare a constant variable with datatype of Routes.
 
 const appRoutes:Routes=[
   {
     path: "",
     component: LandingPageComponent
+  },
+  {
+    path: "individual",
+    component: RegisterIndividualPassComponent
   },
   {
     path: "organisation",

@@ -20,10 +20,11 @@ import { RegisterOrganisationPassComponent } from './register-organisation-pass/
 import { RegisterSkillLabourPassComponent } from './register-skill-labour-pass/register-skill-labour-pass.component';
 import { RegisteredPassComponent } from './registered-pass/registered-pass.component';
 import { ErrorHandlerPageComponent } from './error-handler-page/error-handler-page.component';
+import { RegisterIndividualPassComponent } from './register-individual-pass/register-individual-pass.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, MdToolbarModule, MdTabsModule, MdButtonModule, MdInputModule, MdDatepickerModule, MdNativeDateModule, MdCheckboxModule, MdRadioModule, AppRoutingModule ],
-  declarations: [ AppComponent, LandingPageComponent,    RegisterOrganisationPassComponent, RegisterSkillLabourPassComponent, RegisteredPassComponent, ErrorHandlerPageComponent ],
+  declarations: [ AppComponent, LandingPageComponent,    RegisterOrganisationPassComponent, RegisterSkillLabourPassComponent, RegisteredPassComponent, ErrorHandlerPageComponent, RegisterIndividualPassComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
