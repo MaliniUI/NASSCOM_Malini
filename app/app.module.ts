@@ -23,7 +23,7 @@ import { ErrorHandlerPageComponent } from './error-handler-page/error-handler-pa
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, MdToolbarModule, MdTabsModule, MdButtonModule, MdInputModule, MdDatepickerModule, MdNativeDateModule, MdCheckboxModule, MdRadioModule, AppRoutingModule ],
-  declarations: [ AppComponent, LandingPageComponent,   RegisterIndividualPassComponent, RegisterOrganisationPassComponent, RegisterSkillLabourPassComponent, RegisteredPassComponent, ErrorHandlerPageComponent ],
+  declarations: [ AppComponent, LandingPageComponent,    RegisterOrganisationPassComponent, RegisterSkillLabourPassComponent, RegisteredPassComponent, ErrorHandlerPageComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

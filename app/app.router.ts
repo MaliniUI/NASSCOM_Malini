@@ -14,10 +14,6 @@ const appRoutes:Routes=[
     component: LandingPageComponent
   },
   {
-    path: "individual",
-    component: RegisterIndividualPassComponent
-  },
-  {
     path: "organisation",
     component: RegisterOrganisationPassComponent
   },
