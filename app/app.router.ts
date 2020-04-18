@@ -1,28 +1,28 @@
-import {Routes} from "@angular/router";
+import {NgModule} from '@angular/core';
+import {Routes,RouterModule} from '@angular/router';
 import {LandingPageComponent} from "./landing-page/landing-page.component";
-import {RegistrationPageComponent} from "./registration-page/registration-page.component";
+import {RegisterPassComponent} from "./register-pass/register-pass.component";
 
 // declare a constant variable with datatype of Routes.
 
-export const AppRoute:Routes = [
+const appRoutes:Routes=[
   {
     path: "",
-    component: DashboardComponent
+    component: LandingPageComponent
   },
    {
-    path: "home",
-    component: DashboardComponent
-  },
-  {
-    path: "careers",
-    component: CareersComponent
-  },
-  {
-    path: "technology",
-    component: TechnologyComponent
-  },
-  {
-    path: "about",
-    component: AboutComponent
+    path: "register",
+    component: RegisterPassComponent
   }
-];
+]
+
+@NgModule({
+imports:[
+      RouterModule.forRoot(appRoutes)
+],
+
+exports:[RouterModule]
+})
+export class AppRoutingModule{
+
+}
