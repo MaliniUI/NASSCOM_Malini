@@ -6,6 +6,10 @@
   float:right !important;
 }
 
+.logo-img{
+width: 80px;
+    height: 80px;
+}
 .w-100{
   width: 100% !important;
 }
@@ -13,12 +17,15 @@
 .ta-center{
   text-align: center;
 }
-
+.part1,.part3{
+  flex-grow: 1;
+}
+.part2{
+  flex-grow: 3;
+}
 .title-content{
   float:right !important;
-  width: 90% !important;
    text-align: center;
-   margin-left:-7%;
 }
 
 .registration-wrapper{
@@ -26,4 +33,11 @@
   height: 80%;
   text-align: center;
     margin-top: 5%;
+}
+
+button.category-button {
+    margin-left: 30px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
 }
