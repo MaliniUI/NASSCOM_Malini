@@ -22,7 +22,7 @@ import { RegisterSkillLabourPassComponent } from './register-skill-labour-pass/r
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, MdToolbarModule, MdTabsModule, MdButtonModule, MdInputModule, MdDatepickerModule, MdNativeDateModule, MdCheckboxModule, MdRadioModule, AppRoutingModule ],
-  declarations: [ AppComponent, LandingPageComponent,  RegisterPassComponent, RegisterIndividualPassComponent, RegisterOrganisationPassComponent, RegisterSkillLabourPassComponent ],
+  declarations: [ AppComponent, LandingPageComponent,   RegisterIndividualPassComponent, RegisterOrganisationPassComponent, RegisterSkillLabourPassComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
