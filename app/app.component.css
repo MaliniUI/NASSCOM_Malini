@@ -1,0 +1,16 @@
+p {
+  font-family: Lato;
+}
+
+
+.dib{
+  display: inline-block;
+}
+
+.fr{
+  float:right !important;
+}
+
+.title-wrapper{
+  display: flex !important;
+}
